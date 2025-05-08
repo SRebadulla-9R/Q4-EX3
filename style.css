@@ -1,0 +1,104 @@
+/* General Body Styling */
+body {
+  font-family: 'Gaegu', 'Gochi Hand', sans-serif;
+  background-color: #E5D0AC; /* Light beige background */
+  color: #C14600; /* Deep orange text */
+  margin: 0;
+  padding: 0;
+}
+
+/* Container Styling */
+.container {
+  display: flex;
+  justify-content: space-between; /* This places the content and image side by side */
+  align-items: flex-start; /* Align items to the top to avoid vertical misalignment */
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #FFFFFF; /* White background for the container */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+/* Left Side Content Styling (Text and Form) */
+.container .content {
+  width: 55%; /* Taking 55% of the container width */
+  padding-right: 20px; /* Adding some padding on the right side */
+}
+
+/* Header Styling */
+h1 {
+  font-size: 36px;
+  color: #C14600; /* Deep orange for the header */
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+/* Input Field Styling */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #C14600; /* Deep orange border */
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Button Group Styling */
+.button-group button {
+  background-color: #C14600; /* Deep orange button */
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.button-group button:hover {
+  background-color: #FF9D23; /* Lighter orange on hover */
+}
+
+/* Result Text Styling */
+#result {
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: left;
+  color: #C14600; /* Deep orange text for the result */
+}
+
+/* Image Container Styling */
+.image-container {
+  width: 40%; /* Image takes 40% of the container width */
+  text-align: center; /* Center image inside the container */
+  display: flex; /* Ensure the image stays centered */
+  justify-content: center; /* Center the image horizontally */
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+ 
+}
+
+/* Horizontal Line Styling */
+hr.custom-hr {
+  border: 1px solid #C14600; /* Deep orange color */
+  margin: 30px 0;
+}
+
+/* Footer Styling */
+footer {
+  font-size: 14px;
+  color: #C14600;
+  background-color: #FF9D23; /* Footer background color */
+  padding: 10px 0;
+  text-align: center;
+}
+
+
